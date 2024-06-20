@@ -1,0 +1,10 @@
+seaborn
+scipy
+joblib
+scikit-learn
+mne
+matplotlib
+numpy 
+pandas
+PyWavelets
+tensorflow
