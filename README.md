@@ -16,4 +16,35 @@ EEG (Electroencephalography) is a method to record electrical activity of the br
 - **Visualization:** Provides visualization of the EEG signals and the results of the classification.
 
 
+Contents / What’s in this repo
 
+Olfaction_EEG_anlaysis.ipynb — Main analysis notebook: end-to-end pipeline (preprocessing → feature extraction → visualization → modelling). 
+GitHub
+
+experiment_data_segment_1.csv, experiment_data_segment_2.csv — Example EEG data segments used in the notebook. 
+GitHub
+
+Models/ — Saved model artifacts (trained classifiers / pickles). 
+GitHub
+
+analysis_plots/ — Generated figures used for inspection and reporting. 
+GitHub
+
+requirements.txt — Python dependencies needed to run the notebook. 
+GitHub
+
+Quick overview
+
+This project demonstrates a typical EEG ML workflow:
+
+Load/inspect raw EEG segments (CSV files included as example data).
+
+Preprocess signals (filtering, de-noising, artifact handling).
+
+Extract features (time-domain / frequency-domain / bandpower / spectral features).
+
+Reduce dimensionality (PCA / visualization).
+
+Train & evaluate classifiers to separate scent-related neural signatures.
+
+Save models & plots under Models/ and analysis_plots/.
